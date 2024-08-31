@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Menú Lateral</title>
+        <link rel="stylesheet" href="css/style2.css">
+		<style type="text/css">
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #menu-lateral ul {
+                list-style-type: none;
+                background-color: #085CAB;
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+            }
+
+            #menu-lateral li {
+                margin: 0px;
+                padding: 0px;
+                border-bottom: 1px solid #004281;
+            }
+
+            #menu-lateral li a {
+                font-family: Roboto, Arial;
+                font-size: 10pt;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                display: block;
+                padding: 10px 20px;
+            }
+                
+            #menu-lateral li a:hover {
+                background-color: #004281;
+            }
+
+
+            /* */
+            
+
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #7b6c49;
+  padding: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 150px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+.nav-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-menu a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+		</style>
+	</head>
+	<body>
+		<div id="menu-lateral">
+			<ul>
+                <li class="item">
+                    <a href="/app" class="">
+                      <img src="/_nuxt/img/nav-comunity.693e802.svg">
+                      <img src="/_nuxt/img/nav-comunity--hover.30c1e75.svg" class="hover">Nanos
+                    </a>
+                  </li>
+                  <li class="item active">
+                    <a>
+                      <img src="/_nuxt/img/nav-courses.7cb096e.svg">
+                      <img src="/_nuxt/img/nav-courses--hover.139dd04.svg" class="hover">Cursos
+                    </a>
+                    <div class="c-item-contents" style="display: none;">
+                      <div class="c-item-contents__titles">
+                        <ul>
+                          <li>
+                            <a href="/cursos-online?pagina=1" class="">
+                              <div class="d-flex">
+                                <div class="icon">
+                                  <img data-src="/_nuxt/img/menu-courses.9517420.svg" src="/images/default-image.webp" class="lazyLoad">
+                                </div>
+                                Cursos
+                              </div>
+                              <img data-src="/_nuxt/img/arrow-right.93dfe9c.svg" class="arrow lazyLoad" src="/images/default-image.webp">
+                            </a>
+                          </li>
+                          <li>
+                            
+                            <a href="/especializaciones?pagina=1" class="">
+                              <div class="d-flex">
+                                <div class="icon">
+                                  <img data-src="/_nuxt/img/menu-specializations.8eb16b5.svg" src="/images/default-image.webp" class="lazyLoad">
+                                </div>
+                                Especializaciones
+                              </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/lives" class="">
+                              <div class="d-flex">
+                                <div class="icon">
+                                  <img data-src="/_nuxt/img/menu-lives.428d436.svg" src="/images/default-image.webp" class="lazyLoad">
+                                </div>
+                                Lives
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="c-item-contents__subtitles">
+                        <div class="title">CATEGORÍAS</div>
+                        <ul>
+                          <li><a href="/cursos-online/categoria/marketing?pagina=1" class="">Marketing</a></li>
+                          <li><a href="/cursos-online/categoria/diseno-y-creatividad?pagina=1" class="">Diseño y creatividad</a></li>
+                          <li><a href="/cursos-online/categoria/sostenibilidad?pagina=1" class="">Sostenibilidad</a></li>
+                          <li><a href="/cursos-online/categoria/produccion-y-video?pagina=1" class="">Producción y video</a></li>
+                          <li><a href="/cursos-online/categoria/tecnologia-y-digital?pagina=1" class="">Tecnología y digital</a></li>
+                          <li><a href="/cursos-online/categoria/estilo-de-vida?pagina=1" class="">Estilo de vida</a></li>
+                          <li><a href="/cursos-online/categoria/desarrollo-personal?pagina=1" class="">Desarrollo Personal</a></li>
+                          <li><a href="/cursos-online/categoria/recursos-humanos?pagina=1" class="">Recursos Humanos</a></li>
+                          <li><a href="/cursos-online/categoria/negocios?pagina=1" class="">Negocios</a></li>
+                          <li><a href="/cursos-online/categoria/microsoft-office?pagina=1" class="">Microsoft Office</a></li>
+                          <li><a href="/cursos-online/categoria/fotografia?pagina=1" class="">Fotografía</a></li>
+                          <li><a href="/cursos-online/categoria/master-talks?pagina=1" class="">Master Talks</a></li>
+                        </ul>
+                        <ul class="subsection">
+                          <li><a href="/cursos-online?pagina=1" class="">Todos los cursos</a></li>
+                          <li><a href="/cursos-online/categoria/gratis?pagina=1" class="">Cursos gratis</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <a href="/ranking" class="">
+                      <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjgxMTIgNS42MDU0M0MxMi44MTEyIDguMjU5NSAxMC42NTk2IDEwLjQxMTEgOC4wMDU1OCAxMC40MTExQzUuMzUxNSAxMC40MTExIDMuMTk5OTUgOC4yNTk1IDMuMTk5OTUgNS42MDU0M0MzLjE5OTk1IDIuOTUxMzYgNS4zNTE1IDAuNzk5ODA1IDguMDA1NTggMC43OTk4MDVDMTAuNjU5NiAwLjc5OTgwNSAxMi44MTEyIDIuOTUxMzYgMTIuODExMiA1LjYwNTQzWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjAwMzA4IDExLjg2OTlDMTAuMDIwMiAxMS44Njk5IDExLjc2NTUgMTAuODM1OCAxMi43NDU0IDkuMTI0NTFDMTIuNzg4IDkuMjkxNDIgMTMuMzQzMiAxMC45NjE5IDEzLjQ0MzIgMTAuODM1OGMwLjc5NjYtMC43MTM0IDEuMzYyOC0xLjExNjYgMi4yOTg2LTEuMTE2NiAzLjA4MDVMMTQuOTYyIDkuMTI0NTFMMTQuOTYyIDI0LjQ2NzFDMTQuOTYyIDI3LjE1MTUgMTQuMDAwOCAyNy42MTk4IDEzLjQ0MzIgMjcuNjE5OGMwLjU5NjggMC4zNjQ4IDEuMDUyNy0wLjcyMzcgMS4xMTY2LTAuNzIzN0wxNC4wMDA4IDkuMTI0NTFMMTQuMDAwOCAxMi44OTg0TDguMDAzMDggMTEuODY5OVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=">
+                      <img src="/_nuxt/img/nav-ranking--hover.b589760.svg" class="hover">Ranking
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="/eventos" class="">
+                      <img src="/_nuxt/img/nav-events.81bbd4b.svg">
+                      <img src="/_nuxt/img/nav-events--hover.545aa88.svg" class="hover">Eventos
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="/blog" class="">
+                      <img src="/_nuxt/img/nav-blog.9e9b348.svg">
+                      <img src="/_nuxt/img/nav-blog--hover.7fb0d89.svg" class="hover">Blog
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="/contacto" class="">
+                      <img src="/_nuxt/img/nav-contact.9d83a11.svg">
+                      <img src="/_nuxt/img/nav-contact--hover.40c8f5b.svg" class="hover">Contacto
+                    </a>
+                  </li>
+			</ul>
+		</div>
+	</body>
+</html>

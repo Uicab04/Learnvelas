@@ -1,0 +1,130 @@
+/* #73602e; */
+/* #7b6c49; */
+/*  rgba(146, 134, 101, 0.152)*/
+
+
+
+
+/* estylo gurdado */
+
+    
+/* Estilos generales */
+.page-wrapper {
+    display: flex;
+    height: 100%;
+    /* background-color: rgba(146, 134, 101, 0.152);  */
+  }
+  
+  .sidebar_wrap {
+    width: 220px;
+    /* background-color: rgba(146, 134, 101, 0.152);  */
+    border-right: 1px solid #e0e0e0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .sidebar {
+    padding: 20px;
+  }
+  
+  /* Estilos para el encabezado */
+  .sidebar_header {
+    margin-bottom: 30px;
+  }
+  
+  .sidebar_logo-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar_logo-wrap a {
+    text-decoration: none;
+  }
+  
+  .wf_mark,
+  .wm_wf {
+    font-size: 28px;
+    margin-right: 15px;
+    color: #333333;
+  }
+  
+  .wm_uni {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  /* Estilos para los enlaces */
+  .sidebar__links-wrap {
+    margin-bottom: 30px;
+  }
+  
+  .sidebar_group {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar_link-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Iconos en el centro y derecho */
+    text-decoration: none;
+    color: #666666;
+    transition: color 0.3s;
+  }
+  
+  .sidebar_link-group:hover {
+    color: #333333;
+  }
+  
+  .icon-1-5 {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  .sidebar_link-text {
+    font-size: 18px;
+    margin-left: 10px; /* Espacio entre el icono y el texto */
+  }
+  
+  .secondary {
+    margin-left: auto;
+    font-size: 16px;
+    color: #999999;
+  }
+  
+  /* Estilos para el tooltip */
+  [data-tooltip] {
+    position: relative;
+  }
+  
+  [data-tooltip]::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333333;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  
+  [data-tooltip]:hover::before {
+    opacity: 1;
+  }
+  
+  /* Estilos específicos para la página de e-learning */
+  .sidebar_wrap {
+    width: 180px; /* Espacio más pequeño */
+  }

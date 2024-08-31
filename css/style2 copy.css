@@ -1,0 +1,65 @@
+.container {
+  background-color: #f5f5f5; /* Color de fondo suave */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px; /* Espaciado interno */
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente elegante */
+  color: #333; /* Color del texto */
+  text-align: center; /* Centrado */
+}
+
+.course-description, .course-objective, .courses-section, .video-player {
+  margin-bottom: 30px; /* Espacio entre secciones */
+}
+
+.course-description h2, .course-objective h2, .courses-section h2, .video-player h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente elegante */
+  color: #333; /* Color del texto */
+}
+
+.course-description p, .course-objective p {
+  color: #666; /* Color del texto secundario */
+  line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.courses-section ul {
+  list-style: none; /* Quita viñetas */
+  padding: 0; /* Quita espaciado */
+}
+
+.course-link {
+  color: #007bff; /* Color del enlace */
+  text-decoration: none; /* Quita subrayado */
+  transition: color 0.3s ease; /* Transición suave */
+}
+
+.course-link:hover {
+  color: #0056b3; /* Color del enlace al pasar el ratón */
+}
+
+.video-player video {
+  width: 100%; /* Video ocupa todo el ancho */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.controls {
+  margin-top: 10px; /* Espaciado superior */
+  text-align: center; /* Centrado */
+}
+
+.controls button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Quita borde */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.controls button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}
